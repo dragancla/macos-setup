@@ -128,7 +128,7 @@ install_python() {
     pyenv global "$PYTHON_VERSION"
 }
 
-if [[ "$1" = "setup" ]]; then
+if [[ "$1" = "terminal" ]]; then
     change_shell_to_zsh
     install_homebrew
     download_install_brewfile

@@ -1,5 +1,3 @@
-tap "homebrew/bundle"
-
 brew "aria2"
 brew "gh"
 
