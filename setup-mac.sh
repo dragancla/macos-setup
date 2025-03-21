@@ -70,6 +70,8 @@ configure_ohmyzsh() {
 
     echo "Downloading .p10k.zsh..."
     curl -o $HOME/.p10k.zsh -L https://raw.githubusercontent.com/dragancla/macos-setup/main/.p10k.zsh
+
+    printf "\n# Homebrew\neval \"\$($HOMEBREW_PATH shellenv)\"" >> $ZSHRC
 }
 
 configure_iterm() {
