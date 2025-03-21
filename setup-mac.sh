@@ -79,10 +79,11 @@ configure_iterm() {
     curl -o ~/Library/Fonts/MesloLGS\ NF\ Italic.ttf -L https://raw.githubusercontent.com/dragancla/macos-setup/main/MesloLGS%20NF%20Italic.ttf
     curl -o ~/Library/Fonts/MesloLGS\ NF\ Regular.ttf -L https://raw.githubusercontent.com/dragancla/macos-setup/main/MesloLGS%20NF%20Regular.ttf
     echo "Downloading iTerm profile..."
-    curl -o ~/Library/Application\ Support/iTerm2/DynamicProfiles/iterm_profile.json -L https://raw.githubusercontent.com/dragancla/macos-setup/main/iterm_profile.json
+    mkdir -p ~/Library/Application\ Support/iTerm2/DynamicProfiles
+    curl -o ~/Library/Application\ Support/iTerm2/DynamicProfiles/iTerm_profile.json -L https://raw.githubusercontent.com/dragancla/macos-setup/main/iTerm_profile.json
     echo "Downloading iTerm theme..."
-    curl -o ~/Library/Application\ Support/iTerm2/DynamicProfiles/Cobalt2.itermcolors -L https://raw.githubusercontent.com/dragancla/macos-setup/main/iterm_profile.json
-    open ~/Library/Application Support/iTerm2/DynamicProfiles/Cobalt2.itermcolors
+    curl -o ~/Downloads/Cobalt2.itermcolors -L https://raw.githubusercontent.com/dragancla/macos-setup/main/iCobalt2.itermcolors
+    open ~/Downloads/Cobalt2.itermcolors
 }
 
 install_android_studio() {
