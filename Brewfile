@@ -1,11 +1,12 @@
 brew "aria2"
 brew "gh"
 
+cask "google-chrome"
+cask "firefox"
 cask "1password"
 cask "aldente"
 cask "domzilla-caffeine"
 cask "spacewalker"
-cask "google-chrome"
 cask "spotify"
 
 cask "slack"
